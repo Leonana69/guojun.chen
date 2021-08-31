@@ -71,6 +71,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -98,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		/* background-color: #935d8c; */
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		/* background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #b2b2b4 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -125,7 +126,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		font-family: 'Varela Round', sans-serif;
-		font-size: 17pt;
+		font-size: 12pt;
 		font-weight: 300;
 		line-height: 1.65;
 	}
@@ -133,7 +134,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -149,7 +150,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -2429,6 +2430,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
+		text-align: left;
 	}
 
 		ul li {
@@ -3072,7 +3074,7 @@ input, select, textarea {
 
 	#header {
 		padding: 5em 5em 1em 5em ;
-		text-align: center;
+		text-align: left;
 	}
 
 		#header h1 {
@@ -3218,9 +3220,9 @@ input, select, textarea {
 		color: #636363;
 		position: absolute;
 		width: 64em;
-		max-width: calc(100% - 4em);
+		max-width: calc(90%);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #ffffff;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3763,8 +3765,9 @@ input, select, textarea {
 
 	#wrapper {
 		width: 64em;
-		max-width: calc(100% - 4em);
-		margin: 0 auto;
+		max-width: calc(100%- 4em);
+		margin: auto;
+		
 	}
 
 		@media screen and (max-width: 480px) {
@@ -3782,3 +3785,8 @@ input, select, textarea {
 			}
 
 		}
+
+.publication {
+	margin: 0 auto;
+    text-align: left;
+}
