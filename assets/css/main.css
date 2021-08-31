@@ -121,7 +121,7 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
+		color: rgba(255, 255, 255, 1);
 	}
 
 	body, input, select, textarea {
@@ -2430,7 +2430,6 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
-		text-align: left;
 	}
 
 		ul li {
@@ -3786,7 +3785,17 @@ input, select, textarea {
 
 		}
 
-.publication {
-	margin: 0 auto;
-    text-align: left;
+#project {
+	text-align: center;
+	list-style: none;
+}
+
+#publication {
+	text-align: left;
+	list-style: disc;
+}
+
+#education {
+	text-align: left;
+	list-style: disc;
 }
