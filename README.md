@@ -13,13 +13,12 @@ advisor  Prof. Lin Zhong (https://www.linzhong.org)
 focus    LLM-powered robot control, embedded systems
 -----------
 email    guojun.chen@yale.edu
-links    github · linkedin · instagram
+links    github · linkedin
 ```
 
 - Email: <guojun.chen@yale.edu>
 - GitHub: [Leonana69](https://github.com/Leonana69)
 - LinkedIn: [guojun-chen](https://www.linkedin.com/in/guojun-chen-0481a1121/)
-- Instagram: [leonana69](https://www.instagram.com/leonana69/)
 
 ## Publications
 
