@@ -61,19 +61,9 @@ a:hover { color: var(--hover); }
 /* Neofetch-style header */
 .nf {
   display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 44px;
+  grid-template-columns: 1fr;
   align-items: start;
   padding: 48px 0 16px;
-}
-.nf-avatar {
-  width: 172px;
-  height: 172px;
-  object-fit: cover;
-  border: 1px solid var(--muted);
-  border-radius: 8px;
-  padding: 5px;
-  background: transparent;
 }
 .nf-info { min-width: 0; }
 .nf-title {
@@ -204,6 +194,5 @@ a.pub-title:hover { color: var(--hover); }
 @media (max-width: 768px) {
   html { font-size: 16px; }
   .wrap { padding: 20px 20px 72px; }
-  .nf { grid-template-columns: 1fr; gap: 26px; justify-items: start; }
   #education li { grid-template-columns: 1fr; gap: 2px; }
 }
